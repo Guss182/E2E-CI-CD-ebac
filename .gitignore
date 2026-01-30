@@ -41,8 +41,13 @@ build/Release
 node_modules/
 jspm_packages/
 
+<<<<<<< HEAD
 # TypeScript v1 declaration files
 typings/
+=======
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+>>>>>>> 0bb291f8c08ea0350444f1860b3916989533e277
 
 # TypeScript cache
 *.tsbuildinfo
@@ -53,11 +58,16 @@ typings/
 # Optional eslint cache
 .eslintcache
 
+<<<<<<< HEAD
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
 .rts2_cache_es/
 .rts2_cache_umd/
+=======
+# Optional stylelint cache
+.stylelintcache
+>>>>>>> 0bb291f8c08ea0350444f1860b3916989533e277
 
 # Optional REPL history
 .node_repl_history
@@ -68,6 +78,7 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
+<<<<<<< HEAD
 # dotenv environment variables file
 .env
 .env.test
@@ -77,6 +88,20 @@ typings/
 
 # Next.js build output
 .next
+=======
+# dotenv environment variable files
+.env
+.env.*
+!.env.example
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out
+>>>>>>> 0bb291f8c08ea0350444f1860b3916989533e277
 
 # Nuxt.js build / generate output
 .nuxt
@@ -84,13 +109,36 @@ dist
 
 # Gatsby files
 .cache/
+<<<<<<< HEAD
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
+=======
+# Comment in the public line in if your project uses Gatsby and not Next.js
+>>>>>>> 0bb291f8c08ea0350444f1860b3916989533e277
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
 # vuepress build output
 .vuepress/dist
 
+<<<<<<< HEAD
+=======
+# vuepress v2.x temp and cache directory
+.temp
+.cache
+
+# Sveltekit cache directory
+.svelte-kit/
+
+# vitepress build output
+**/.vitepress/dist
+
+# vitepress cache directory
+**/.vitepress/cache
+
+# Docusaurus cache and generated files
+.docusaurus
+
+>>>>>>> 0bb291f8c08ea0350444f1860b3916989533e277
 # Serverless directories
 .serverless/
 
@@ -100,9 +148,33 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
+<<<<<<< HEAD
 # TernJS port file
 .tern-port
 
 videos/
 screenshots/
 
+=======
+# Firebase cache directory
+.firebase/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v3
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Vite logs files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+>>>>>>> 0bb291f8c08ea0350444f1860b3916989533e277
