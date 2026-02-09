@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --browser chrome"
+    "test": "npx cypress run --browser chrome",
+    "report": "npx allure serve --clean allure-results",
+    "report:generate": "npx allure generate --clean allure-results --output allure-report"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +15,8 @@
     "cypress": "^14.5.4"
   },
   "devDependencies": {
-    "@faker-js/faker": "^10.2.0"
+    "@faker-js/faker": "^10.2.0",
+    "allure-commandline": "^2.36.0",
+    "allure-cypress": "^3.4.5"
   }
 }

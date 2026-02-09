@@ -178,3 +178,8 @@ screenshots/
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 >>>>>>> 0bb291f8c08ea0350444f1860b3916989533e277
+
+allure-report/
+allure-results/
+
+videos/
