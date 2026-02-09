@@ -20,4 +20,4 @@ jobs:
       run: npm install
 
     - name: Executar testes 
-      run: npm cypress test
+      run: npm test
