@@ -8,6 +8,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
     - uses: actions/checkout@v4
@@ -21,3 +22,12 @@ jobs:
 
     - name: Executar testes 
       run: npm test
+
+    - name: Upload evidências Cypress
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+       name: cypress-artifacts
+       path: |
+        cypress/screenshots
+        cypress/videos
