@@ -23,6 +23,8 @@ jobs:
 
     - name: Executar testes 
       run: npm test
+      env:
+       CYPRESS_BASE_URL: http://lojaebac.ebaconline.art.br/
 
     - name: Gerar relatório Allure
       run: npm run report:generate

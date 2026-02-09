@@ -9,7 +9,7 @@ module.exports = defineConfig({
       });
       return config;
     },
-    baseUrl: "http://lojaebac.ebaconline.art.br/"
+    baseUrl: process.env.CYPRESS_BASE_URL || "http://lojaebac.ebaconline.art.br/"
   },
   video: true,
   screenshotOnRunFailure: true,
